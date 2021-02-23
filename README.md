@@ -1,4 +1,6 @@
-# {{name}}
+# Friends Quotes Generator
+
+Simple app made with clojurescript and reagent
 
 ## Run
 
