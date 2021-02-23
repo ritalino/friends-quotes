@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  background-color: #ca7cd8;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: 'Oswald';
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.frame {
+  background-image: url(../images/friends-frame.svg);
+  background-size: cover;
+  height: auto;
+  padding: 0;
+  padding-bottom: calc(100% * 0.5);
+  width: 39vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.quote-container {
+  position: absolute;
+  padding: 12vw 42vw;
+}
+
+.quote-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+}
+
+.quote-container a,
+button {
+  background: #ffc210;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 18px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 1vh;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .frame {
+    width: 95vw;
+    padding-bottom: calc(100% * 1.3);
+  }
+
+  .quote-container {
+    padding: 30vw 29vw;
+  }
+
+  .quote-text {
+    font-size: 15px;
+  }
+
+  .quote-author {
+    font-size: 16px;
+  }
+
+  .action-buttons {
+    margin-top: 3vh;
+  }
+}
